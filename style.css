@@ -1,0 +1,27 @@
+/* *{
+    transform:translate(-50%, 50%);
+} */
+body{
+    background-color: teal;
+}
+.container{
+    border:1px solid black;
+    width: 750px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 2s;
+    
+}
+.small{
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+    border: 1px black solid;
+    margin-bottom: 10px;
+    transition: 2s;
+    transform: translate(-50%, 50%);
+}
